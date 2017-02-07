@@ -29,7 +29,7 @@ for ($i=1; $i <= 100; $i++) {
 
 //EX4
 for ($i=1; $i <= 100; $i++) {
-  if ($i%4 == "true") {
+  if ($i%4 == 0) {
     echo "PIN ,";
   } else{
     echo "$i ,";
