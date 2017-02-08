@@ -1,10 +1,6 @@
 <?php
 
-
-for ($i=1; $i < 6; $i++) {
-  for ($j=0; $j < $i; $j++) {
-    $linha .= "*";
-  }
+for ($i=0; $i < 5; $i++) {
+  $linha = $linha . "*";
   echo "$linha\n";
-  $linha = "";
 }
